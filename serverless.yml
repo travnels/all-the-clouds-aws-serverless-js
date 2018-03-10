@@ -40,9 +40,6 @@ provider:
 #          - - "arn:aws:s3:::"
 #            - "Ref" : "ServerlessDeploymentBucket"
 #            - "/*"
-
-plugins:
-  - serverless-offline
   
 # you can define service wide environment variables here
 #  environment:
