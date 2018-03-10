@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+docker:
+      - image: circleci/node:6
+working_directory: ~/repo
+steps:
+      - checkout
+- run:
+          name: Install Node dependencies
+          command: npm install
+- run:
+          name: Unit tests
+          command: npm test
+- run:
+          name: Deploy to AWS
+          command: npm run deploy

@@ -1,0 +1,24 @@
+{
+  "name": "all-the-clouds-aws-serverless-js",
+  "version": "1.0.0",
+  "description": "all-the-clouds-aws-serverless-js",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travnels/all-the-clouds-aws-serverless-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travnels/all-the-clouds-aws-serverless-js/issues"
+  },
+  "homepage": "https://github.com/travnels/all-the-clouds-aws-serverless-js#readme",
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "serverless": "^1.26.1",
+    "serverless-offline": "^3.18.0"
+  }
+}

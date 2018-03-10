@@ -41,6 +41,9 @@ provider:
 #            - "Ref" : "ServerlessDeploymentBucket"
 #            - "/*"
 
+plugins:
+  - serverless-offline
+  
 # you can define service wide environment variables here
 #  environment:
 #    variable1: value1
