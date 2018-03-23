@@ -4,7 +4,7 @@ module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      test: 222
+      'color': 'red'
     }),
   };
 
